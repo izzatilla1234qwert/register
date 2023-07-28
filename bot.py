@@ -2,7 +2,7 @@ import logging
 
 from aiogram import Bot, Dispatcher, executor, types
 from bot_states import UserStates
-from aiogram.dispatcher import FSMContext
+from aiogram.dispatcher import FSMContext    
 from bot_database import *
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from bot_keyboards import *
@@ -10,7 +10,7 @@ from bot_keyboards import *
 logging.basicConfig(level=logging.INFO)
 
 
-BOT_TOKEN = "6060324128:AAET5AvNCDHu0deiUS6-EI3b6mQfGYHVJLU"
+BOT_TOKEN = "6371766247:AAFlAZpZpEg74PnWdhKqd3ZFk_WB94xD0qg"
 
 bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
